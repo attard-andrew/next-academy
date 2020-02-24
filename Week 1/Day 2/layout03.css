@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+body {
+	font-family: 'PT Sans';
+	margin: 0px;
+}
+
+nav {
+	background-color: rgb(87, 87, 87);
+	display: flex;
+	justify-content: space-between;
+	position: sticky;
+	height: 8vh;
+	top: 0;
+	margin: 0px;
+	color: white;
+	align-items: center;
+}
+
+.logo_container {
+	display: inline-flex;
+	align-items: center;
+	padding-left: 10px;
+}
+
+li > a {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	display: inline;
+	padding-left: 10px;
+}
+
+h2 {
+	margin: 0px;
+	padding: 5px;
+}
+
+nav > ul {
+	margin: 0px;
+}
+
+nav > ul li {
+	list-style: none;
+	display: inline;
+	padding: 15px;
+}
+
+img.profile {
+	height: 200px;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+img.logo {
+	height: 30px;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+}
+
+.sidebar {
+	background-color: skyblue;
+	flex-grow: 1;
+	border-radius: 5px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+main {
+	flex-grow: 3;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+section {
+	background-color:  #DEFDB6;
+	display: flex;
+}
+
+section:nth-child(odd) {
+	background-color:yellow;
+	flex-direction: row-reverse;
+}
+
+section > img {
+	height: 200px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+p {
+	padding: 20px;
+	margin: 0px;
+}
