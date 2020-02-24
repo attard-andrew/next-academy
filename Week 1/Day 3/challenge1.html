@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="challenge1_styles.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+		<a class="navbar-brand">Hello World Inc.</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#about-us">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#products">About Us</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#about-us">Contact</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Send an email</a>
+						<a class="dropdown-item" href="http://facebook.com">Facebook</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Contact Form</a>
+					</div>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					  </div>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+	<div id="carouselSlides" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselSlides" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselSlides" data-slide-to="1"></li>
+			<li data-target="#carouselSlides" data-slide-to="2"></li>
+		  </ol>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			  <img src="https://michiganfuture.org/assets/uploads/2017/11/Untitled-design-9.jpg" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="https://res.cloudinary.com/teepublic/image/private/s--Py2xtM7J--/t_Preview/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v1509001037/production/designs/2001459_1.jpg" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="https://res.cloudinary.com/teepublic/image/private/s--DcYcu5dl--/t_Preview/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v1550142169/production/designs/4200734_0.jpg" class="d-block w-100" alt="...">
+		  </div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselSlides" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselSlides" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+	  </div>
+	  <div class="jumbotron jumbotron-fluid bg-secondary text-light">
+		<div class="container">
+		  <h1 class="display-4">Welcome to HelloWorld Incorporated</h1>
+		  <p class="lead">Where code meets cleanliness</p>
+		</div>
+	  </div>
+	  <div class="container mt-3 mb-3">
+		  <h1>Latest Products</h1>
+		  <div class="row">
+			  <div class="col-md-4">
+				<div class="card shadow">
+					<img src="https://ae01.alicdn.com/kf/HTB1yJ8lKr1YBuNjSszeq6yblFXaE.jpg_q50.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">HelloWorld Coders Shampoo</h5>
+					  <p class="card-text">Been staring at your code for too long and scratching your head wondering how to solve the problem, well maybe the answer has been staring you in the face the whole time. Try HelloWorld coders shampoo today!</p>
+					  <small>*Results observed after 10 weeks of use.</small> 
+					  <button class="btn btn-primary d-block mx-auto" data-toggle="modal" data-target="#buyNowModal">
+						Buy Now!
+					  </button>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-md-4">
+				<div class="card shadow">
+					<img src="https://ae01.alicdn.com/kf/HTB1Rs1HKVXXXXbPXFXXq6xXFXXXd/Blue-Cylindrical-Lotion-Pump-Bottle-Cosmetic-Shampoo-Bottle-Conditioner-Repackaging-Empty-Bottle.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">HelloWorld Coders Conditioner</h5>
+					  <p class="card-text">What's the use of having soft coders fingers from all that coding if you don't have soft hair to match? Well worry not as HelloWorld Coder Conditioner is here to dave the day. Try it now, your fingers and your hair will love you for it.</p>
+					  <small>*Results observed after 10 weeks of use.</small>  
+					  <button class="btn btn-primary d-block mx-auto" data-toggle="modal" data-target="#buyNowModal">
+						Buy Now!
+					  </button>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-md-4">
+				<div class="card shadow">
+					<img src="https://sc02.alicdn.com/kf/UTB8ck4chJnJXKJkSaiyq6AhwXXaT/200454981/UTB8ck4chJnJXKJkSaiyq6AhwXXaT.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">HelloWorld Coders Facewash</h5>
+					  <p class="card-text">Bugs stress you out and unexpected CSS behaviour can cause extreme perspiration. Make sure you use HelloWorld Coders Facewash to wash away those worries and keep your face just as clean as your code. What are you waiting for?</p>
+					 <small>*Results observed after 10 weeks of use.</small> 
+					 <button class="btn btn-primary d-block mx-auto" data-toggle="modal" data-target="#buyNowModal">
+						Buy Now!
+					  </button>
+					</div>
+				</div>
+			  </div>
+		  </div>
+	  </div>
+	  <div class="container-fluid">
+		  <div class="row">
+			  <div class="col-lg-6">
+				<div class="card">
+					<div class="card-body shadow">
+					  <h2 id="about-us">About Us!</h2>
+					  <img class="card-img-top" src="https://spectator.imgix.net/content/uploads/2018/03/factory.jpg?auto=compress,enhance,format&crop=faces,entropy,edges&fit=crop&w=820&h=550">
+					  <p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Non autem soluta assumenda saepe sed quos similique a, doloremque maiores sint ea laudantium! A eveniet ea iste inventore facilis dicta modi accusantium fugiat debitis reprehenderit voluptatum, numquam consequatur quidem distinctio labore sed est quasi eius nihil. Facilis consequatur laboriosam magnam aperiam.
+					  </p>
+					</div>
+				  </div>
+			  </div>
+			  <div class="col-lg-6">
+				  <div class="row">
+					  <div class="col-lg-6 md-12">
+
+					  </div>
+					  <div class="col-lg-6 md-12">
+						  
+					  </div>
+				  </div>
+				  <div class="row">
+					<div class="col-lg-6 md-12">
+
+					</div>
+					<div class="col-lg-6 md-12">
+						
+					</div>
+				</div>
+			  </div>
+		  </div>
+	  </div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
