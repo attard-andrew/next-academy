@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+body {
+	background-color: midnightblue;
+	font-family: 'Bitter';
+	font-size: 20px;
+}
+
+form {
+	font-size: 0;
+}
+
+/* Changes opacity of the placeholder text */
+input::-webkit-input-placeholder {
+	color: grey; /*Change the placeholder color*/
+	opacity: 0.5; /*Change the opacity between 0 and 1*/
+}
+
+.container {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+#addTask {
+	background-color: #fc2f70;
+	color: white;
+	border: none;
+	padding: 20px;
+	width: 180px;
+	border-left: none;
+	margin-left: 0;
+	font-size: 20px;
+	text-decoration: line-through;
+}
+
+::placeholder {
+	color: white;
+}
+
+#userInput {
+	background-color: hsl(236, 32%, 26%);
+	color: white;
+	border: none;
+	padding: 20px;
+	width: 350px;
+	margin-right: 0;
+	border-right: none;
+	font-size: 20px;
+}
+
+#taskList {
+	list-style: none;
+	list-style-type: none;
+	padding-inline-start: 0px;
+}
+
+#taskList > li {
+	display: flex;
+	color: white;
+	background-color: #6F77BD;
+	margin-top: 20px;
+	height: 50px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
