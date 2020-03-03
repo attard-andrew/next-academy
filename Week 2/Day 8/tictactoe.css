@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+
+#tictactoe .row {
+	margin: 0px;
+	padding: 0px;
+	align-items: center;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'helvetica';
+	justify-content: space-between;
+}
+
+.play-field {
+	background-color: lightgrey;
+	margin: 2px;
+	height: 33vh;
+	width: 33vw;
+}
