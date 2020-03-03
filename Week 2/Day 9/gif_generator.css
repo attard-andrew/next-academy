@@ -1,0 +1,19 @@
+body {
+	background-color: midnightblue;
+}
+
+.container {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.row {
+	width: 100%;
+}
+
+.main {
+	width: 50vw;
+	height: 50vw;
+	background-color: slategray;
+}

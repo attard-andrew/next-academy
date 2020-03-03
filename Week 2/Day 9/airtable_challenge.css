@@ -1,0 +1,10 @@
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+  }
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
