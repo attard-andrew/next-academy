@@ -1,8 +1,9 @@
 import React, {useState, useEffect } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import '../App.css';
 import LoadingIndicator from '../components/LoadingIndicator';
-import UserImages from './UserImages'
+import UserImages from '../container/UserImages'
 
 const HomePage = () => {
   const [users, setUsers] = useState([])
@@ -28,7 +29,7 @@ const HomePage = () => {
         {users.map(user => (
           <>
             <li>
-              {user.username}
+            <Link to={`/users/${user.id}/${user.username}`}>{user.username}</Link>
             </li>
             <div>
               <img src={user.profileImage} className="profile-avatar"/>
